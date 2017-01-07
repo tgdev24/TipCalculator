@@ -4,21 +4,21 @@ QuickTips is a tip calculator PHP page.
 
 Submitted by: Tsenddavaa Ganbat
 
-Time spent: ~15 hours spent in total
+Time spent: ~10 hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
-* [ ] User can enter a bill amount, choose a tip percentage, and submit the form to see the tip and total values.
-* [ ] Tip percentage choices use a PHP loop to output three radio buttons.
-* [ ] PHP code sets reasonable default values for the form.
-* [ ] PHP code confirms the presence and correct format of submitted values.
-* [ ] Page indicates any form errors which need to be fixed.
-* [ ] Submitted form values are retained when errors or results are shown.
+* [x] User can enter a bill amount, choose a tip percentage, and submit the form to see the tip and total values.
+* [x] Tip percentage choices use a PHP loop to output three radio buttons.
+* [x] PHP code sets reasonable default values for the form.
+* [x] PHP code confirms the presence and correct format of submitted values.
+* [x] Page indicates any form errors which need to be fixed.
+* [x] Submitted form values are retained when errors or results are shown.
 
 The following **optional** features are implemented:
-* [ ] Add support for custom tip percentage
-* [ ] Add support for splitting the tip and total
+* [x] Add support for custom tip percentage
+* [x] Add support for splitting the tip and total
 
 The following **additional** features are implemented:
 
@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://media.giphy.com/media/3oz8xymfxGhyUvXQBy/source.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/3o6Zt3nXB7rwVqfB7O/source.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
