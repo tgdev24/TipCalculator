@@ -112,21 +112,24 @@
                             }
                             $total = $tip+$subtotal;
                             if(!empty($_POST["splits"])){
+                                if(is_numeric($splits) && $splits > 0){
                                 $tipSplit = $tip / $splits;
                                 $totalSplits = $total / $splits;
                                 $tip=number_format((float)$tip, 2, '.', '');
                                 $tipSplit=number_format((float)$tipSplit, 2, '.', '');
                                 $totalSplits=number_format((float)$totalSplits, 2, '.', '');
                                 $total=number_format((float)$total, 2, '.', '');
-                                echo "Tip: $" . $tip;
+                            
+                                    echo "Tip: $" . $tip;
                                 echo "<br>";
                                 echo "Total: $" . $total;
                                 echo "<br>";
-                                if($splits > 0){
+                                if($splits > 1){
                                     echo "Tip Split: $" . $tipSplit;
                                     echo "<br>";
                                     echo "Total Split: $" . $totalSplits;
                                 }
+                            }
                             }
                         }
                     }
